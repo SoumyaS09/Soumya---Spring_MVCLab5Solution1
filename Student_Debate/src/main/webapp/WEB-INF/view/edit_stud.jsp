@@ -29,9 +29,8 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="addStud">Add
-							Stud</a></li>
+						aria-current="page" href=""></a></li>
+					<li class="nav-item"><a class="nav-link" href=""></a></li>
 				</ul>
 
 			</div>
@@ -67,6 +66,12 @@
 							</div>
 							<button class="btn btn-primary">Update</button>
 						</form>
+						<br>
+						<div class="card-body">
+							<form action="${pageContext.request.contextPath}/home">
+								<button class="btn btn-primary">Back to List</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
