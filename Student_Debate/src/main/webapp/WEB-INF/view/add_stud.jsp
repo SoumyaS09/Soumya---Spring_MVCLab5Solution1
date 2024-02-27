@@ -64,6 +64,12 @@
 
 							<button class="btn btn-primary">Submit</button>
 						</form>
+						<br>
+						<div class="card-body">
+							<form action="${pageContext.request.contextPath}/home">
+								<button class="btn btn-primary">Back to List</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
